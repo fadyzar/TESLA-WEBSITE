@@ -1,0 +1,193 @@
+*{
+  margin: 0;
+  left: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  background-image: url("../images/model-3-main-page.jpeg");
+
+ background-repeat: no-repeat;
+background-size: 1300px 800px;
+position:sticky;
+
+}
+h3{
+color: #ffffff;
+font-family:sans-serif;
+font-style: normal;
+align-content: center;
+display: inline-block;
+
+}
+
+p{
+  color: #ffffff;
+  font-family:sans-serif;
+  font-style: normal;
+  align-content: center;
+  display: inline-block;
+
+}
+.navbar{
+  position: relative;
+    background-color: black;
+    padding: 20px;
+    background-image: radial-gradient(54.97% 272.54% at 27.36% -134.72%,rgba(108,148,255,.92) 0,rgba(0,0,0,.92) 100%);
+}
+.navbar a{
+  color: white;
+  font-family: sans-serif;
+}
+
+.header{
+
+  margin-left: 200px;
+}
+
+#header{
+  margin-left: 30px;
+}
+
+.logo-child h1{
+  margin-left: 50px;
+  color:white;
+
+  padding: 10px;
+  margin-top: 10px;
+  font-weight: lighter;
+
+
+}
+.ul1-child ul{
+list-style: none;
+float: right;
+margin-right: 440px;
+margin-top: -50px;
+}
+
+.ul1-child ul li {
+  float: left;
+}
+
+
+.ul1-child ul li a{
+  display: block;
+  list-style: none;
+padding: 15px;
+
+  color: white;
+  text-decoration: none;
+
+}
+
+.ul2-child ul{
+list-style: none;
+float: right;
+margin-right: 30px;
+margin-top: -45px;
+}
+
+.ul2-child ul li {
+  float: left;
+}
+
+
+.ul2-child ul li a{
+  display: block;
+  list-style: none;
+padding: 15px;
+
+  color: white;
+  text-decoration: none;
+
+}
+
+.model3-main{
+  color: white;
+  text-align: center;
+  font-size: 55px;
+  margin-top: 60px;
+  font-family: sans-serif;
+  font-weight: lighter;
+
+}
+
+#h3-main{
+  color: white;
+   margin-left: 570px;
+  margin-top: 5px;
+  font-family: sans-serif;
+
+}
+
+#p-main{
+  color: white;
+   margin-left: 480px;
+  margin-top: 15px;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+.footer-ul1{
+  color: white;
+  list-style: none;
+  float: right;
+  margin-right: 330px;
+  padding: 70px;
+  margin-top: 150px;
+
+}
+
+.footer-ul1 ul li {
+  float: left;
+  padding: 50px;
+  list-style: none;
+
+
+}
+
+.footer-ul1 ul li h2{
+
+  display: inline-block;
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  letter-spacing: -0.5px;
+  line-height: 21.4px;
+  font-family: Arial;
+}
+
+.footer-ul1 ul li h3{
+display: inline-block;
+
+
+}
+
+
+.foteer-ul2{
+  color: white;
+  list-style: none;
+  float: right;
+  margin-right: 340px;
+  padding: 70px;
+  margin-top: -215px;
+
+}
+
+.foteer-ul2 ul li {
+  float: left;
+  padding: 30px;
+  list-style: none;
+
+
+}
+
+.foteer-ul2 ul li p{
+
+  display: inline-block;
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  letter-spacing: -0.5px;
+  line-height: 21.4px;
+  font-family: Arial;
+}
