@@ -81,6 +81,29 @@ padding: 15px;
 
 }
 
+.ul1-child ul li a:hover{
+
+  color: 	rgb(64,64,64);
+
+ box-shadow: 10px -10px 10px rgb(128,128,128), rgb(128,128,128);
+
+}
+
+
+.ul2-child svg{
+width: 40px;
+height: 25px;
+margin-top: 10px;
+color: white;
+}
+
+.ul2-child a svg{
+width: 40px;
+height: 25px;
+margin-top: -5px;
+margin-left: -13px;
+}
+
 .ul2-child ul{
 list-style: none;
 float: right;
@@ -168,9 +191,10 @@ display: inline-block;
   color: white;
   list-style: none;
   float: right;
-  margin-right: 340px;
-  padding: 70px;
-  margin-top: -215px;
+  margin-right: 410px;
+  padding: -1px;
+  margin-top: -140px;
+
 
 }
 
@@ -185,9 +209,237 @@ display: inline-block;
 .foteer-ul2 ul li p{
 
   display: inline-block;
-  box-sizing: border-box;
+
   color: rgb(255, 255, 255);
   letter-spacing: -0.5px;
   line-height: 21.4px;
   font-family: Arial;
+}
+
+
+.foteer-btn1{
+  float: left;
+  margin-left: 320px;
+  margin-top: -80px;
+  height: -100px;
+  width:200px;
+
+
+}
+
+.foteer-btn2{
+  float: left;
+  margin-left: 640px;
+  margin-top: -80px;
+
+
+}
+
+
+.foteer-btn1 button{
+
+  border: none;
+
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  padding: 1px 70px;
+  cursor: pointer;
+
+  border: 3px solid white;
+  }
+
+.foteer-btn1  button:hover {
+    color: #001F3F;
+    background-color: #fff;
+}
+
+
+.foteer-btn2 button{
+  background-color: (0,0,0,0);
+ border: none;
+padding: 1px 85px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+ cursor: pointer;
+ background-color : transparent;
+ border: 3px solid white;
+}
+
+.foteer-btn2  button:hover {
+    color: #001F3F;
+    background-color: #fff;
+
+}
+.foteer-btn2  button:hover a {
+  color: black;
+
+}
+
+.foteer-btn2 a{
+  display: block;
+  list-style: none;
+padding: 10px;
+
+  color: white;
+  text-decoration: none;
+
+}
+.foteer-btn1 a{
+  display: block;
+  list-style: none;
+padding: 10px;
+
+  color: black;
+  text-decoration: none;
+
+}
+
+/* page 2 style ----------------------------------*/
+
+.navbar-page2{
+  position: relative;
+    background-color: black;
+    padding: 25px;
+    margin-top: 501px;
+    background-attachment: scroll;
+background-blend-mode: normal;
+background-clip: border-box;
+background-color: rgba(45, 45, 45, 0.4);
+background-image: none;
+background-origin: padding-box;
+background-position-x: 0%;
+background-position-y: 0%;
+background-repeat-x: repeat;
+background-repeat-y: repeat;
+background-size:auto;
+
+}
+
+.body-page2{
+  background-color: 	rgb(248,248,248);
+
+}
+.logo-page2{
+  margin-top: -15px;
+  float: left;
+  margin-left: 10px;
+}
+
+.logo-page2 h2{
+
+}
+
+.ul-page2{
+float: right;
+margin-top: -20px;
+}
+
+.ul-page2 ul{
+list-style: none;
+
+
+}
+
+.ul-page2 ul li a{
+  display: block;
+  list-style: none;
+  padding: 15px;
+
+  color: white;
+  text-decoration: none;
+}
+
+.ul-page2 ul li a:hover{
+  color: black;
+}
+
+.li-hover{
+
+
+background-clip: border-box;
+background-color: rgb(128,128,128);
+background-image:  none;
+
+block-size:40px;
+
+
+
+}
+
+
+
+
+
+
+.ul-page2 ul li{
+float: left;
+}
+
+.image-page2{
+  border: 1px #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 700px;
+    margin-top: 100px;
+    margin-left: 250px;
+
+}
+
+.h1-page2{
+  color: 	rgb(72,72,72);
+  margin-left: 150px;
+  margin-top: 70px;
+  font-family:sans-serif;
+}
+
+.p-page2{
+  color: rgb(105,105,105);
+  margin-left: 150px;
+}
+
+.a-page2{
+  color:  rgb(105,105,105);
+  font-family: sans-serif;
+}
+
+
+.star-page2{
+  float: left;
+  margin-left: 150px;
+  margin-top: 40px;
+
+}
+
+
+.star-page2 p{
+color: rgb(72,72,72);
+}
+
+
+.top-safety-page2{
+  float: right;
+  margin-right: 200px;
+    margin-top: 44px;
+}
+
+
+
+.top-safety-page2 p{
+color: rgb(72,72,72);
+}
+
+
+
+
+
+
+.img-page3{
+  margin-left: 0px;
+  margin-top: 40px;
+  width: 1600px;
+  height: 700px;
 }
